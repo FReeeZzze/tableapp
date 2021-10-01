@@ -1,0 +1,12 @@
+.filter-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    margin-bottom: 5px;
+    grid-gap: 5px;
+}
+
+.filter-container h3 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    margin: 10px 0px;
+}

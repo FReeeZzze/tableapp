@@ -1,0 +1,23 @@
+.drop-down {
+    display: grid;
+    align-content: center;
+    position: relative;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid var(--second-color);
+    font-size: 16px;
+    font-style: normal;
+}
+
+.drop-down:after {
+    margin-right: 5px;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    background: url("../icons/buttonDown.png") right no-repeat;
+}

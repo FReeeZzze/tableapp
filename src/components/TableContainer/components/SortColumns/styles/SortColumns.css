@@ -1,0 +1,23 @@
+.sort-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    cursor: pointer;
+    margin: auto;
+}
+
+.sort-columns > div {
+    user-select: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid var(--second-color);
+    border-right: 0;
+}
+
+.sort-columns > div:last-child {
+    border-right: 1px solid var(--second-color);
+}
+
+.active-sort-column {
+    color: rgb(88, 212, 88);
+}

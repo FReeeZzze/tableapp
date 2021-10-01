@@ -1,0 +1,26 @@
+.drop-menu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background: var(--main-color);
+    border: 1px solid var(--second-color);
+  
+    margin-top: 5px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04), 0 20px 20px rgba(44, 39, 56, 0.04);
+}
+
+.drop-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.drop-item:hover {
+    transition: 300ms background ease-in-out;
+    background: var(--second-color);
+}

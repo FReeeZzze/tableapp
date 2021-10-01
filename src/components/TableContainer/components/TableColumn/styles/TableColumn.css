@@ -1,0 +1,9 @@
+.table-column {
+    display: inline;
+    background-color: #fff;
+}
+
+/* .table-column:focus-within {
+    transition: 500ms color ease-in-out;
+    color: rgb(250, 105, 105);
+} */

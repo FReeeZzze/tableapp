@@ -1,0 +1,8 @@
+.text-field {
+    padding: 5px;
+    border: 1px solid var(--second-color);
+}
+
+.text-field:focus-visible {
+    outline: none;
+}

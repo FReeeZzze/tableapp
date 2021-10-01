@@ -1,0 +1,17 @@
+{
+    "Table": {
+        "client": {
+            "host": "localhost",
+            "port": "3000"
+        },
+        "host": "localhost",
+        "port": "5000",
+        "dbConfig": {
+            "host": "localhost",
+            "user": "postgres",
+            "database": "table",
+            "password": "jojokaka2020",
+            "port": 5432
+        }
+    }
+}

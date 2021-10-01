@@ -1,0 +1,20 @@
+.table-row {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    margin: auto;
+}
+
+.table-row:focus-within {
+    transition: 500ms color ease-in-out;
+    color: rgb(250, 105, 105);
+}
+
+.table-row > div {
+    padding: 5px;
+    border-bottom: 1px solid var(--second-color);
+    border-left: 1px solid var(--second-color);
+}
+
+.table-row > div:last-child {
+    border-right: 1px solid var(--second-color);
+}
