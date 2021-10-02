@@ -7,6 +7,8 @@ Runs the docker app containers in background
 
 ## Available Scripts in run app without docker
 
+### `npm install -> cd ./server -> npm install` for download librarys to [client] and [server]
+
 In the project directory, you can run:
 
 ### `npm run client`
