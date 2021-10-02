@@ -5,11 +5,11 @@ export const checkСondition = (a, b, condition) => {
     const right = b.toString().replace(/\n/gm, '').toLowerCase()
 
     switch(condition) {
-        case condition === 'равно':
+        case 'равно':
             return left === right;
-        case condition === 'больше':
+        case 'больше':
             return left > right;
-        case condition === 'меньше':
+        case 'меньше':
             return left < right;
         default:
             return left.includes(right)

@@ -1,9 +1,7 @@
 const express = require('express');
 const config = require('config');
-const { dbConnection, dbConfig } = require('./utils')
 
 // Настройки сервера
-const HOST = config.get('Table.host')
 const PORT = config.get('Table.port')
 
 // middleware
@@ -16,18 +14,8 @@ app.use('/api', router);
 
 const MainApp = () => {
     try {
-        dbConnection.connect((err) => {
-          if (err) {
-            console.log('Error database connection: ', [err.message]);
-            return 1;
-          }
-
-          console.log(`Подключен к базе: ${dbConfig.database}`);
-
-          app.listen(PORT, HOST, () => {
-            console.log(`> Сервер стартовал: http://${HOST}:${PORT}`);
-          });
-
+        app.listen(PORT, () => {
+          console.log(`> Сервер стартовал на порту: ${PORT}`);
         });
 
         app.use((req, res) => {

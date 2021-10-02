@@ -6,10 +6,10 @@
         },
         "port": "5000",
         "dbConfig": {
-            "host": "localhost",
-            "user": "postgres",
+            "host": "postgres",
+            "user": "freeezzz",
             "database": "apptable",
-            "password": "jojokaka2020",
+            "password": "0L/RgNC40LLQtdGC0LzQtdC00LLQtdC0",
             "port": 5432
         }
     }
