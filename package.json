@@ -12,10 +12,11 @@
   },
   "scripts": {
     "client": "react-scripts start",
-    "build-client": "react-scripts build",
+    "build": "react-scripts build",
     "server": "npm run start --prefix server",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
+  "proxy": "http://table-server-app:5000",
   "eslintConfig": {
     "extends": [
       "react-app"
