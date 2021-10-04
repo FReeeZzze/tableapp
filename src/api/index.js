@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const serverADDR = process.env.NODE_ENV === 'development' ? 'localhost:5000' : ''
+const serverADDR = process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : ''
 
 const instance = axios.create({
     baseURL: `${serverADDR}/api`,
